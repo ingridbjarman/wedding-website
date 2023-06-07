@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: Brittany;
+  src: url(../public/fonts/BrittanySignature.otf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../public/fonts/Montserrat-VariableFont_wght.otf);
+}
