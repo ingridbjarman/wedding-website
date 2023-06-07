@@ -1,26 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        brittany:  ['Brittany', 'serif'],
-        montserrat: ['Montserrat', 'light']
-      },
-      colors: {
-        'terracotta': '#A86E4D',
-        'olive': '#e1e3cf'
-      },
-      container: {
-        center: true
-      }
-    }
+    extend: {},
   },
-  plugins: [
-    require('tailwind-hamburgers'),
-  ],
+  plugins: [],
 }
+

@@ -1,5 +1,5 @@
 {
-  "name": "wedding",
+  "name": "wedding-website",
   "version": "0.1.0",
   "private": true,
   
@@ -10,9 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.4.9",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
     "@headlessui/react": "^1.7.10",
     "@next/font": "13.1.6",
     "@types/cookie": "^0.5.1",
