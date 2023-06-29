@@ -1,6 +1,7 @@
 'use client'
 import Header from '@/components/layout/header'
 import Nav from '@/components/nav'
+import Link from 'next/link'
 import './globals.css'
 import { usePathname } from 'next/navigation'
 import Head from './head'

@@ -1,5 +1,9 @@
 'use client'
-import React from 'react';
+import HomeDesktop from "@/components/homeDesktop";
+import HomeMobile from "@/components/homeMobile";
+import Image from "next/image";
+import Church from "../img/church.png"
+import Venue from "../img/venue.png"
 
 export default function Home() {
   return (
@@ -13,10 +17,10 @@ function Md() {
   return (
     <div>
       <div className='hidden md:block'>
-        hello world
+        <HomeDesktop/>
       </div>
       <div className="block md:hidden">
-        hello smaller world
+        <HomeMobile />
       </div>
     </div>
   )
